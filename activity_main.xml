@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="328dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail1"
+        app:srcCompat="@drawable/kizkulesi1" />
+
+    <TextView
+        android:id="@+id/txtEmail1"
+        android:layout_width="257dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="Galata Kulesi"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="        Dünyanın en eski kuleleri arasında sayılan ve İstanbul'un sembollerinden biri olan Galata Kulesi, 2013 yılında UNESCO Dünya Mirası Geçici Listesi'ne dahil edilmiştir. Günümüzdeki kuleyi 1348-49 yılında inşa edilmiştir. Kule 1445-46 yılları arasında yükseltilmiştir. Yapı son olarak 1967'de onarım görmüştür. İstanbul'un silüetini oluşturan en önemli yapılardan biri olan Galata Kulesi, uzun dönem yangın gözlem kulesi olarak kullanıldı ve Galata Yangın Kulesi olarak adlandırıldı. On yedinci yüzyılda Hezarfen Ahmet Çelebi, uçuş denemeleri yaptığı Galata Kulesi'nden, tahtadan yapılan kanatları sırtına bağlayarak gerçekleştirdiği uçuşunu Üsküdar'da tamamladıktan sonra kuleye olan ilginin giderek arttığı bilinmektedir. Galata Kulesi yığma moloz taş örgü sistemde inşa edilmiştir. Dış cephe taş örgüdür. Girişteki kitabede 16 mısralık methiye II. Mahmut döneminde yapıldığı için onun adına yazıldığı düşünülmektedir."
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.054"
+        tools:text="        Dünyanın en eski kuleleri arasında sayılan ve İstanbul'un sembollerinden biri olan Galata Kulesi, 2013 yılında UNESCO Dünya Mirası Geçici Listesi'ne dahil edilmiştir. Günümüzdeki kuleyi 1348-49 yılında inşa edilmiştir. Kule 1445-46 yılları arasında yükseltilmiştir. Yapı son olarak 1967'de onarım görmüştür. İstanbul'un silüetini oluşturan en önemli yapılardan biri olan Galata Kulesi, uzun dönem yangın gözlem kulesi olarak kullanıldı ve Galata Yangın Kulesi olarak adlandırıldı. On yedinci yüzyılda Hezarfen Ahmet Çelebi, uçuş denemeleri yaptığı Galata Kulesi'nden, tahtadan yapılan kanatları sırtına bağlayarak gerçekleştirdiği uçuşunu Üsküdar'da tamamladıktan sonra kuleye olan ilginin giderek arttığı bilinmektedir. Galata Kulesi yığma moloz taş örgü sistemde inşa edilmiştir. Dış cephe taş örgüdür. Girişteki kitabede 16 mısralık methiye II. Mahmut döneminde yapıldığı için onun adına yazıldığı düşünülmektedir." />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="ALTYAPI\n(Elektrik, su iletişim ağı, ulaşım kanalizasyon...)"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button41"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="ALTYAPI\n(Elektrik, su iletişim ağı, ulaşım kanalizasyon...)" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="Öneri ve Şikayet Bölümü"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="ÇEVRE\n(Peyzaj, Atık Yönetimi, Hijyen...)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:text="ÇEVRE\n(Peyzaj, Atık Yönetimi, Hijyen...)" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="ÜSTYAPI\n(Eğitim, kültür, sanat, fiziki yapı...)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:text="ÜSTYAPI\n(Eğitim, kültür, sanat, fiziki yapı...)" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="@string/performans_n_personel_hizmet_kalitesi_ileti_im"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:text="PERFORMANS\n(Personel, Hizmet Kalitesi, iletişim...)" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="FİYAT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:text="FİYAT" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="TR-EN"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <Button
+        android:id="@+id/button90"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="GÜVENLİK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button91"
+        android:layout_width="393dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/timesnewroman"
+        android:textAllCaps="false"
+        android:text="DİĞER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button90" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:fontFamily="@font/timesnewroman"
+        android:text="Detay"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
